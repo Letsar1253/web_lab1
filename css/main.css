@@ -1,0 +1,193 @@
+*
+{
+  color: white;
+}
+
+body
+{
+  margin: 0;
+}
+
+header, footer
+{
+  background-color: green;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  height: 2em;
+}
+
+header span
+{
+  text-align: center;
+  font-family: 'Courier New';
+}
+
+footer span
+{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+section
+{
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+section .content
+{
+  width: 33%;
+  background-color: blue;
+  padding: 0 20px 0;
+  font-family: sans-serif;
+}
+
+h1
+{
+  font-size: 35px;
+}
+
+.square
+{
+  display: block;
+  height: 80px;
+  width: 80px;
+  border: 4px solid currentColor;
+  border-radius: 20% 0;
+  margin: 0 15px 15px 0;
+  float: left;
+}
+
+nav
+{
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+A
+{
+  color: red;
+}
+
+A:visited
+{
+  color: red;
+}
+
+A:active
+{
+  color: red;
+}
+
+#listValues
+{
+  width: 100%;
+}
+
+#listValues span
+{
+  color: red;
+}
+
+#listValues h2
+{
+  word-spacing: 0.3em;
+  margin-bottom: 0;
+}
+
+#listValues ul
+{
+  margin: 5px 0 5px;
+}
+
+#listValues ul > li
+{
+  height: 25px;
+  list-style-type: disc;
+}
+
+#listValues ul li:nth-child(2)
+{
+  letter-spacing: 0.2em;
+  color: aqua;
+}
+
+#listStyles ul > li
+{
+  list-style: none;
+  height: 30px;;
+}
+
+#listStyles p
+{
+  margin: 0;
+}
+
+#listStyles ul
+{
+  margin: 13px 0 0px;
+  padding: 0;
+}
+
+u
+{
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  display: inline-block;
+  line-height: 0.9;
+}
+
+s
+{
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  display: inline-block;
+  line-height: 0;
+}
+
+aside
+{
+  float: right;
+}
+
+table, td
+{
+  border: 1px double white;
+}
+
+td
+{
+  height: 25px;
+  width: 35px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+tr:first-child td:first-child
+{
+  background-color: green;
+  vertical-align: bottom;
+}
+
+tr:last-child td:last-child
+{
+  background-color: red;
+}
+
+aside div
+{
+  float: right;
+  margin-top: 15px;
+  height: 15px;
+}
+
+section .content div
+{
+  display: inline-block;
+}
